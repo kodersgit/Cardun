@@ -1,0 +1,1342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A7B5BDDA7C238F952489BA /* Pods_Cardun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5289BABF7715A9D632A7D5D /* Pods_Cardun.framework */; };
+		6240DE180F3B2E55A343E07F /* Pods_CardunUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD2D01E43FF3BD439071550 /* Pods_CardunUITests.framework */; };
+		CC7CA9913227320E18122D29 /* Pods_CardunTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E1C4C563D147FEBA02CAF2 /* Pods_CardunTests.framework */; };
+		F00298BD23FED07B00CEAE6F /* webServiceCalling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00298BC23FED07B00CEAE6F /* webServiceCalling.swift */; };
+		F0083E1B22E896B000667CA1 /* titre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0083E1A22E896B000667CA1 /* titre.jpg */; };
+		F00AC65C2275F596005B3FBA /* MoreIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F00AC65B2275F596005B3FBA /* MoreIcon.png */; };
+		F00B659A22BA91600048A923 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B659922BA91600048A923 /* images.png */; };
+		F00B8816229822F600F255CE /* caca.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B8815229822F600F255CE /* caca.png */; };
+		F00B8818229825C600F255CE /* Group 422.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B8817229825C500F255CE /* Group 422.png */; };
+		F00B881A22982A4600F255CE /* Group 417.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B881922982A4600F255CE /* Group 417.png */; };
+		F00B881C22982C2A00F255CE /* Group 425.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B881B22982C2A00F255CE /* Group 425.png */; };
+		F00B881E22982C8000F255CE /* Group 426.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B881D22982C8000F255CE /* Group 426.png */; };
+		F00B882022982D2D00F255CE /* message-square.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B881F22982D2C00F255CE /* message-square.png */; };
+		F00B882422982DCB00F255CE /* caca-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B882322982DCB00F255CE /* caca-2.png */; };
+		F00B882C22983A6000F255CE /* More Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F00B882B22983A6000F255CE /* More Icon.png */; };
+		F00C22A422F0508000D35553 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C22A322F0508000D35553 /* user.png */; };
+		F00C22A622F0510F00D35553 /* users.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C22A522F0510F00D35553 /* users.png */; };
+		F00C22A822F0519F00D35553 /* Group 424.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C22A722F0519E00D35553 /* Group 424.png */; };
+		F00C22AA22F051DC00D35553 /* Group 415.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C22A922F051DC00D35553 /* Group 415.png */; };
+		F00C22AC22F0536800D35553 /* kissclipart-homepage-icon-clipart-computer-icons-symbol-bd0f8bebb816361b.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C22AB22F0536700D35553 /* kissclipart-homepage-icon-clipart-computer-icons-symbol-bd0f8bebb816361b.png */; };
+		F00C22AE22F0577900D35553 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00C22AD22F0577900D35553 /* user.swift */; };
+		F00C22B022F05C6600D35553 /* kisspng-iphone-telephone-android-white-iphone-5ab952044d8e01.8381596115220945963177.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C22AF22F05C6500D35553 /* kisspng-iphone-telephone-android-white-iphone-5ab952044d8e01.8381596115220945963177.png */; };
+		F00C22B822F05F8900D35553 /* white-cell-phone-icon-png-20.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = F00C22B722F05F8900D35553 /* white-cell-phone-icon-png-20.jpg.png */; };
+		F00E367F22EF27FA002DF32C /* Credit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00E367E22EF27FA002DF32C /* Credit.swift */; };
+		F00E368122EF2D17002DF32C /* Group 422.png in Resources */ = {isa = PBXBuildFile; fileRef = F00E368022EF2D16002DF32C /* Group 422.png */; };
+		F0107FE622C7B1F300CB7E86 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0107FE522C7B1F300CB7E86 /* background.jpg */; };
+		F01120B622E9AADE00901371 /* Untitled 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F01120B522E9AADE00901371 /* Untitled 2.gif */; };
+		F012FA2722B67C8F00F32D51 /* divider.png in Resources */ = {isa = PBXBuildFile; fileRef = F012FA2622B67C8F00F32D51 /* divider.png */; };
+		F012FA5722B6863500F32D51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA5622B6863400F32D51 /* AppDelegate.swift */; };
+		F012FA6922B6870200F32D51 /* webServ.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA5D22B6870100F32D51 /* webServ.swift */; };
+		F012FA6A22B6870200F32D51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA5E22B6870100F32D51 /* ViewController.swift */; };
+		F012FA6B22B6870200F32D51 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA5F22B6870100F32D51 /* ViewController2.swift */; };
+		F012FA6C22B6870200F32D51 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA6022B6870100F32D51 /* ViewController3.swift */; };
+		F012FA6D22B6870200F32D51 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA6122B6870100F32D51 /* ViewController4.swift */; };
+		F012FA6E22B6870200F32D51 /* TableViewSubServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA6222B6870100F32D51 /* TableViewSubServices.swift */; };
+		F012FA6F22B6870200F32D51 /* serviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA6322B6870100F32D51 /* serviceInfo.swift */; };
+		F012FA7022B6870200F32D51 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA6422B6870100F32D51 /* ViewController5.swift */; };
+		F012FA7122B6870200F32D51 /* searchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA6522B6870100F32D51 /* searchService.swift */; };
+		F012FA7222B6870200F32D51 /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA6622B6870100F32D51 /* ViewController6.swift */; };
+		F012FA7322B6870200F32D51 /* sideMenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA6722B6870200F32D51 /* sideMenueVC.swift */; };
+		F012FA7622B6874500F32D51 /* finalizeReq.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012FA7422B6874500F32D51 /* finalizeReq.swift */; };
+		F012FA7722B6874500F32D51 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F012FA7522B6874500F32D51 /* Info.plist */; };
+		F012FA7D22B6909500F32D51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F012FA7B22B6909500F32D51 /* Main.storyboard */; };
+		F012FA8022B690D700F32D51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F012FA7E22B690D700F32D51 /* LaunchScreen.storyboard */; };
+		F012FA8422B6916D00F32D51 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F012FA8322B6916D00F32D51 /* Base.lproj */; };
+		F01BE60422E7565C00290719 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F01BE60222E7565C00290719 /* SWRevealViewController.m */; };
+		F01E995A23043DBF0045FBD1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F05A5EC7226DFE0C002C3F84 /* libz.tbd */; };
+		F02380E52328C828009F74DD /* Group 432.png in Resources */ = {isa = PBXBuildFile; fileRef = F02380E42328C827009F74DD /* Group 432.png */; };
+		F02380E7232A8D12009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif in Resources */ = {isa = PBXBuildFile; fileRef = F02380E6232A8D11009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif */; };
+		F02380E9232A8DE0009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif in Resources */ = {isa = PBXBuildFile; fileRef = F02380E8232A8DE0009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif */; };
+		F025807C22DDCD4B0005DC1A /* Group 433.png in Resources */ = {isa = PBXBuildFile; fileRef = F025807B22DDCD4A0005DC1A /* Group 433.png */; };
+		F025807E22DDCD590005DC1A /* Group 403.png in Resources */ = {isa = PBXBuildFile; fileRef = F025807D22DDCD590005DC1A /* Group 403.png */; };
+		F025808022DDCD780005DC1A /* Subtraction 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F025807F22DDCD780005DC1A /* Subtraction 2.png */; };
+		F025808222DDCD8A0005DC1A /* Group 434.png in Resources */ = {isa = PBXBuildFile; fileRef = F025808122DDCD8A0005DC1A /* Group 434.png */; };
+		F025808422DDD1880005DC1A /* ذره بین.png in Resources */ = {isa = PBXBuildFile; fileRef = F025808322DDD1880005DC1A /* ذره بین.png */; };
+		F029A616245F24DB0080FC9C /* %E2%80%94Pngtree%E2%80%94book%20glyph%20black%20icon_3754769.png in Resources */ = {isa = PBXBuildFile; fileRef = F029A615245F24DB0080FC9C /* %E2%80%94Pngtree%E2%80%94book%20glyph%20black%20icon_3754769.png */; };
+		F029D6F222D784FD0061F1A6 /* first page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F029D6F122D784FD0061F1A6 /* first page.jpg */; };
+		F02E5488233266CD00960CDA /* proforma.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02E5487233266CD00960CDA /* proforma.swift */; };
+		F02F164F22DF47B300C1C30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F02F164D22DF47B300C1C30B /* Assets.xcassets */; };
+		F02F2D4C23240B2E00225665 /* pngfind.com-telefono-png-894748.png in Resources */ = {isa = PBXBuildFile; fileRef = F02F2D4B23240B2D00225665 /* pngfind.com-telefono-png-894748.png */; };
+		F02F2D4E2325368E00225665 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F02F2D4D2325368E00225665 /* default.png */; };
+		F02F2D502328066400225665 /* serviceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F2D4F2328066400225665 /* serviceDetails.swift */; };
+		F0348E5924102D9A0097BE1C /* com.png in Resources */ = {isa = PBXBuildFile; fileRef = F0348E5824102D990097BE1C /* com.png */; };
+		F036D6C02342641700015072 /* xiajiantou.png in Resources */ = {isa = PBXBuildFile; fileRef = F036D6BF2342641700015072 /* xiajiantou.png */; };
+		F04F2C4F2333CE5800972F96 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F04F2C4E2333CE5800972F96 /* Podfile */; };
+		F05A5E7A226DF518002C3F84 /* IRANSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F05A5E74226DF3FE002C3F84 /* IRANSans.ttf */; };
+		F05A5E80226DF7B9002C3F84 /* IRANSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F05A5E74226DF3FE002C3F84 /* IRANSans.ttf */; };
+		F05A5E81226DF7BA002C3F84 /* IRANSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F05A5E74226DF3FE002C3F84 /* IRANSans.ttf */; };
+		F05C012C2460444B00FDE7FE /* Intro6.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C012B2460444B00FDE7FE /* Intro6.swift */; };
+		F05C012E24606F4E00FDE7FE /* Intro1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C012D24606F4E00FDE7FE /* Intro1.swift */; };
+		F05C013024606FB900FDE7FE /* Intro2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C012F24606FB900FDE7FE /* Intro2.swift */; };
+		F05C01382460742000FDE7FE /* Intro3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05C01372460742000FDE7FE /* Intro3.swift */; };
+		F05CA73A22720D5800CB925B /* cardun-animate.gif in Resources */ = {isa = PBXBuildFile; fileRef = F05CA72E22720D5700CB925B /* cardun-animate.gif */; };
+		F05CA73B22720D5800CB925B /* Group 442.png in Resources */ = {isa = PBXBuildFile; fileRef = F05CA72F22720D5700CB925B /* Group 442.png */; };
+		F05CA73E22720D5800CB925B /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = F05CA73222720D5800CB925B /* search.png */; };
+		F05CA73F22720D5800CB925B /* cardun-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F05CA73322720D5800CB925B /* cardun-1.png */; };
+		F05CA74222720D5800CB925B /* cardun2.png in Resources */ = {isa = PBXBuildFile; fileRef = F05CA73622720D5800CB925B /* cardun2.png */; };
+		F073F2B5229C1E4700CCABC8 /* Path 878.png in Resources */ = {isa = PBXBuildFile; fileRef = F073F2B4229C1E4600CCABC8 /* Path 878.png */; };
+		F073F2B7229C1EAC00CCABC8 /* Path 877.png in Resources */ = {isa = PBXBuildFile; fileRef = F073F2B6229C1EAB00CCABC8 /* Path 877.png */; };
+		F07C04E3245D94B500C6BDA6 /* Clipart-Email-11931500.png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04E2245D94B400C6BDA6 /* Clipart-Email-11931500.png */; };
+		F07C04E5245D94DA00C6BDA6 /* Clipart-Email-11931500.png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04E4245D94DA00C6BDA6 /* Clipart-Email-11931500.png */; };
+		F07C04E7245D94F000C6BDA6 /* Clipart-Email-11931500.png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04E6245D94F000C6BDA6 /* Clipart-Email-11931500.png */; };
+		F07C04E9245D970300C6BDA6 /* pngfind.com-right-arrow-png-877089.png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04E8245D970300C6BDA6 /* pngfind.com-right-arrow-png-877089.png */; };
+		F07C04EB245DE48B00C6BDA6 /* 1 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04EA245DE48B00C6BDA6 /* 1 (2).png */; };
+		F07C04ED245DE4B600C6BDA6 /* 2 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04EC245DE4B600C6BDA6 /* 2 (2).png */; };
+		F07C04EF245DE4E100C6BDA6 /* 3 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04EE245DE4E000C6BDA6 /* 3 (2).png */; };
+		F07C04F1245DE4EE00C6BDA6 /* 4 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04F0245DE4ED00C6BDA6 /* 4 (2).png */; };
+		F07C04F3245DE4F500C6BDA6 /* 5 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04F2245DE4F500C6BDA6 /* 5 (2).png */; };
+		F07C04F5245DE4FB00C6BDA6 /* 6 (2).png in Resources */ = {isa = PBXBuildFile; fileRef = F07C04F4245DE4FA00C6BDA6 /* 6 (2).png */; };
+		F084BFDC2268874B005A47B3 /* CardunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084BFDB2268874B005A47B3 /* CardunTests.swift */; };
+		F084BFE72268874B005A47B3 /* CardunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F084BFE62268874B005A47B3 /* CardunUITests.swift */; };
+		F084BFF72268A8EC005A47B3 /* cardun-animate.gif in Resources */ = {isa = PBXBuildFile; fileRef = F084BFF62268A8EB005A47B3 /* cardun-animate.gif */; };
+		F0876C3D23E8602F005F37A8 /* hiclipart.png in Resources */ = {isa = PBXBuildFile; fileRef = F0876C3C23E8602E005F37A8 /* hiclipart.png */; };
+		F0876C3F23E862FF005F37A8 /* Android Mobile – 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F0876C3E23E862FE005F37A8 /* Android Mobile – 1.png */; };
+		F08CAD3B231EA471000224BF /* popUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08CAD3A231EA471000224BF /* popUP.swift */; };
+		F08CAD3F23213E7A000224BF /* anonymus.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F08CAD3E23213E79000224BF /* anonymus.jpeg */; };
+		F090698622CA1395002753E2 /* cardun.png in Resources */ = {isa = PBXBuildFile; fileRef = F090698522CA1395002753E2 /* cardun.png */; };
+		F090698822CA14FB002753E2 /* Subtraction 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F090698722CA14FA002753E2 /* Subtraction 1.png */; };
+		F090698A22CA1674002753E2 /* horizontal-line.gif in Resources */ = {isa = PBXBuildFile; fileRef = F090698922CA1674002753E2 /* horizontal-line.gif */; };
+		F090698C22CA16A1002753E2 /* horizontal-line.gif in Resources */ = {isa = PBXBuildFile; fileRef = F090698B22CA16A0002753E2 /* horizontal-line.gif */; };
+		F090698E22CA1827002753E2 /* images 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F090698D22CA1826002753E2 /* images 2.png */; };
+		F0923AE82402A0C000B1231A /* kissclipart-white-transparent-background-share-icon-clipart-co-842eaf77ac3ac9ec.png in Resources */ = {isa = PBXBuildFile; fileRef = F0923AE72402A0C000B1231A /* kissclipart-white-transparent-background-share-icon-clipart-co-842eaf77ac3ac9ec.png */; };
+		F0923AEA2402BAB500B1231A /* exit-clipart-png-transparent-310403-9461913.png in Resources */ = {isa = PBXBuildFile; fileRef = F0923AE92402BAB500B1231A /* exit-clipart-png-transparent-310403-9461913.png */; };
+		F0923AEC2402BBA800B1231A /* PinClipart.com_headphone-clip-art_713569.png in Resources */ = {isa = PBXBuildFile; fileRef = F0923AEB2402BBA700B1231A /* PinClipart.com_headphone-clip-art_713569.png */; };
+		F0923AEE2402BC5A00B1231A /* free-web-icons-png-2-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = F0923AED2402BC5A00B1231A /* free-web-icons-png-2-transparent.png */; };
+		F092C9B124617E1500B74A8C /* Intro4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092C9B024617E1500B74A8C /* Intro4.swift */; };
+		F092C9B324617E8300B74A8C /* Intro5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F092C9B224617E8300B74A8C /* Intro5.swift */; };
+		F096FD2222F5D89D00C1CA83 /* Turnover.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096FD2122F5D89D00C1CA83 /* Turnover.swift */; };
+		F096FD2422F6FED200C1CA83 /* 588a64e7d06f6719692a2d11.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD2322F6FED100C1CA83 /* 588a64e7d06f6719692a2d11.png */; };
+		F096FD2622F6FF8300C1CA83 /* clipart282138.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD2522F6FF8300C1CA83 /* clipart282138.png */; };
+		F096FD2822F705BB00C1CA83 /* mobile_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD2722F705BB00C1CA83 /* mobile_menu.png */; };
+		F096FD2A22F7069E00C1CA83 /* Group 306.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD2922F7069E00C1CA83 /* Group 306.png */; };
+		F096FD2C22F706E900C1CA83 /* Group 305.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD2B22F706E800C1CA83 /* Group 305.png */; };
+		F096FD2E22F707CF00C1CA83 /* TableViewTurnover.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096FD2D22F707CF00C1CA83 /* TableViewTurnover.swift */; };
+		F096FD3022F82BA300C1CA83 /* receivedServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096FD2F22F82BA300C1CA83 /* receivedServices.swift */; };
+		F096FD3222F82C1700C1CA83 /* TableViewReceivedServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F096FD3122F82C1700C1CA83 /* TableViewReceivedServices.swift */; };
+		F096FD3422F82EAB00C1CA83 /* 24-hour-service-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD3322F82EAB00C1CA83 /* 24-hour-service-32.png */; };
+		F096FD3622F832B400C1CA83 /* Implement-Monitor-Icon-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD3522F832B400C1CA83 /* Implement-Monitor-Icon-300x300.png */; };
+		F096FD3822F8392700C1CA83 /* 24-hour-service-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD3722F8392700C1CA83 /* 24-hour-service-32.png */; };
+		F096FD4022F84D6A00C1CA83 /* approved-icon-white-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = F096FD3F22F84D6900C1CA83 /* approved-icon-white-300x300.png */; };
+		F0989FB422DC99E500844AA2 /* searchServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0989FB322DC99E500844AA2 /* searchServices.swift */; };
+		F0A5BE8E23FAD45E00F740BC /* Container-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A5BE8D23FAD45E00F740BC /* Container-1.png */; };
+		F0A5BE9023FAD47200F740BC /* Container-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A5BE8F23FAD47200F740BC /* Container-2.png */; };
+		F0A5BE9523FAD4F200F740BC /* Container-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A5BE9123FAD4F100F740BC /* Container-6.png */; };
+		F0A5BE9623FAD4F200F740BC /* Container-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A5BE9223FAD4F100F740BC /* Container-3.png */; };
+		F0A5BE9723FAD4F200F740BC /* Container-4.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A5BE9323FAD4F200F740BC /* Container-4.png */; };
+		F0A5BE9823FAD4F200F740BC /* Container-5.png in Resources */ = {isa = PBXBuildFile; fileRef = F0A5BE9423FAD4F200F740BC /* Container-5.png */; };
+		F0CB2F2022DCBF5400EDB9AB /* Group 354.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CB2F1F22DCBF5400EDB9AB /* Group 354.png */; };
+		F0CB2F2422DCC1E400EDB9AB /* TableViewSearchServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CB2F2322DCC1E400EDB9AB /* TableViewSearchServices.swift */; };
+		F0CB81062406BE6700D5E360 /* netclipart.com-email-symbol-clipart-2038005.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CB81052406BE6600D5E360 /* netclipart.com-email-symbol-clipart-2038005.png */; };
+		F0CD667523E73C9300A25941 /* Screenshot_20191226-193714_Gallery.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CD667423E73C9300A25941 /* Screenshot_20191226-193714_Gallery.png */; };
+		F0CD667723E73DD300A25941 /* hiclipart.com (2).png in Resources */ = {isa = PBXBuildFile; fileRef = F0CD667623E73DD300A25941 /* hiclipart.com (2).png */; };
+		F0D8BF0B246F0D3C00DFAE9C /* undefined.svg in Resources */ = {isa = PBXBuildFile; fileRef = F0D8BF0A246F0D3C00DFAE9C /* undefined.svg */; };
+		F0D8BF0D246F0D5400DFAE9C /* undefined.svg in Resources */ = {isa = PBXBuildFile; fileRef = F0D8BF0C246F0D5400DFAE9C /* undefined.svg */; };
+		F0D8BF0F246F0E3000DFAE9C /* undefined.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D8BF0E246F0E2F00DFAE9C /* undefined.png */; };
+		F0D8BF11246F0F4A00DFAE9C /* undefined (1).png in Resources */ = {isa = PBXBuildFile; fileRef = F0D8BF10246F0F4900DFAE9C /* undefined (1).png */; };
+		F0D8BF13246F122F00DFAE9C /* undefined (1).png in Resources */ = {isa = PBXBuildFile; fileRef = F0D8BF12246F122F00DFAE9C /* undefined (1).png */; };
+		F0DDF4BE22F1B5B00006ABA5 /* UIHere.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DDF4BD22F1B5AF0006ABA5 /* UIHere.png */; };
+		F0DDF4C022F1B6920006ABA5 /* iPhone-front-white-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DDF4BF22F1B6920006ABA5 /* iPhone-front-white-icon.png */; };
+		F0DDF4C222F1B6E50006ABA5 /* Group 431.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DDF4C122F1B6E40006ABA5 /* Group 431.png */; };
+		F0DDF4C422F1B7AE0006ABA5 /* mobile-phone-8-32.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DDF4C322F1B7AE0006ABA5 /* mobile-phone-8-32.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F084BFD82268874B005A47B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F084BFBB22688748005A47B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F084BFC222688748005A47B3;
+			remoteInfo = Cardun;
+		};
+		F084BFE32268874B005A47B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F084BFBB22688748005A47B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F084BFC222688748005A47B3;
+			remoteInfo = Cardun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CFA7F282699636C7459C6E7 /* Pods-CardunUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardunUITests.debug.xcconfig"; path = "Target Support Files/Pods-CardunUITests/Pods-CardunUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		201421375D22DDA605363C1B /* Pods-CardunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardunTests.release.xcconfig"; path = "Target Support Files/Pods-CardunTests/Pods-CardunTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FD2D01E43FF3BD439071550 /* Pods_CardunUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardunUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED90CD61B134D68C9B4B165 /* Pods-Cardun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardun.debug.xcconfig"; path = "Target Support Files/Pods-Cardun/Pods-Cardun.debug.xcconfig"; sourceTree = "<group>"; };
+		A033AEF843EB1235E7C7028E /* Pods-CardunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardunTests.debug.xcconfig"; path = "Target Support Files/Pods-CardunTests/Pods-CardunTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5289BABF7715A9D632A7D5D /* Pods_Cardun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cardun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F7B2A8E1E6125F6598420F /* Pods-Cardun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardun.release.xcconfig"; path = "Target Support Files/Pods-Cardun/Pods-Cardun.release.xcconfig"; sourceTree = "<group>"; };
+		E3E1C4C563D147FEBA02CAF2 /* Pods_CardunTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardunTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF8F14C9FECD2E3AD5F2DF6 /* Pods-CardunUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardunUITests.release.xcconfig"; path = "Target Support Files/Pods-CardunUITests/Pods-CardunUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F00298BC23FED07B00CEAE6F /* webServiceCalling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webServiceCalling.swift; sourceTree = "<group>"; };
+		F0083E1A22E896B000667CA1 /* titre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = titre.jpg; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/titre.jpg"; sourceTree = "<group>"; };
+		F00AC65B2275F596005B3FBA /* MoreIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoreIcon.png; sourceTree = "<group>"; };
+		F00B659922BA91600048A923 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/images.png"; sourceTree = "<group>"; };
+		F00B8815229822F600F255CE /* caca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = caca.png; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/caca.png"; sourceTree = "<group>"; };
+		F00B8817229825C500F255CE /* Group 422.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 422.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 422.png"; sourceTree = "<group>"; };
+		F00B881922982A4600F255CE /* Group 417.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 417.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 417.png"; sourceTree = "<group>"; };
+		F00B881B22982C2A00F255CE /* Group 425.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 425.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 425.png"; sourceTree = "<group>"; };
+		F00B881D22982C8000F255CE /* Group 426.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 426.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 426.png"; sourceTree = "<group>"; };
+		F00B881F22982D2C00F255CE /* message-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "message-square.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/message-square.png"; sourceTree = "<group>"; };
+		F00B882322982DCB00F255CE /* caca-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "caca-2.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/caca-2.png"; sourceTree = "<group>"; };
+		F00B882B22983A6000F255CE /* More Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "More Icon.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/More Icon.png"; sourceTree = "<group>"; };
+		F00C22A322F0508000D35553 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/user.png"; sourceTree = "<group>"; };
+		F00C22A522F0510F00D35553 /* users.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = users.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/users.png"; sourceTree = "<group>"; };
+		F00C22A722F0519E00D35553 /* Group 424.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 424.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 424.png"; sourceTree = "<group>"; };
+		F00C22A922F051DC00D35553 /* Group 415.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 415.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 415.png"; sourceTree = "<group>"; };
+		F00C22AB22F0536700D35553 /* kissclipart-homepage-icon-clipart-computer-icons-symbol-bd0f8bebb816361b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kissclipart-homepage-icon-clipart-computer-icons-symbol-bd0f8bebb816361b.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/kissclipart-homepage-icon-clipart-computer-icons-symbol-bd0f8bebb816361b.png"; sourceTree = "<group>"; };
+		F00C22AD22F0577900D35553 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		F00C22AF22F05C6500D35553 /* kisspng-iphone-telephone-android-white-iphone-5ab952044d8e01.8381596115220945963177.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kisspng-iphone-telephone-android-white-iphone-5ab952044d8e01.8381596115220945963177.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/kisspng-iphone-telephone-android-white-iphone-5ab952044d8e01.8381596115220945963177.png"; sourceTree = "<group>"; };
+		F00C22B722F05F8900D35553 /* white-cell-phone-icon-png-20.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "white-cell-phone-icon-png-20.jpg.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/white-cell-phone-icon-png-20.jpg.png"; sourceTree = "<group>"; };
+		F00E367E22EF27FA002DF32C /* Credit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit.swift; sourceTree = "<group>"; };
+		F00E368022EF2D16002DF32C /* Group 422.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 422.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 422.png"; sourceTree = "<group>"; };
+		F0107FE522C7B1F300CB7E86 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/background.jpg"; sourceTree = "<group>"; };
+		F01120B522E9AADE00901371 /* Untitled 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "Untitled 2.gif"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Untitled 2.gif"; sourceTree = "<group>"; };
+		F012FA2622B67C8F00F32D51 /* divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = divider.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/divider.png"; sourceTree = "<group>"; };
+		F012FA5622B6863400F32D51 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F012FA5D22B6870100F32D51 /* webServ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webServ.swift; sourceTree = "<group>"; };
+		F012FA5E22B6870100F32D51 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F012FA5F22B6870100F32D51 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		F012FA6022B6870100F32D51 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		F012FA6122B6870100F32D51 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		F012FA6222B6870100F32D51 /* TableViewSubServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSubServices.swift; sourceTree = "<group>"; };
+		F012FA6322B6870100F32D51 /* serviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = serviceInfo.swift; sourceTree = "<group>"; };
+		F012FA6422B6870100F32D51 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		F012FA6522B6870100F32D51 /* searchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchService.swift; sourceTree = "<group>"; };
+		F012FA6622B6870100F32D51 /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		F012FA6722B6870200F32D51 /* sideMenueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideMenueVC.swift; sourceTree = "<group>"; };
+		F012FA7422B6874500F32D51 /* finalizeReq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = finalizeReq.swift; sourceTree = "<group>"; };
+		F012FA7522B6874500F32D51 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F012FA7C22B6909500F32D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F012FA7F22B690D700F32D51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F012FA8322B6916D00F32D51 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		F01BE60122E7565A00290719 /* Cardun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cardun-Bridging-Header.h"; sourceTree = "<group>"; };
+		F01BE60222E7565C00290719 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewControllers/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		F01BE60322E7565C00290719 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewControllers/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		F02380E42328C827009F74DD /* Group 432.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 432.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 432.png"; sourceTree = "<group>"; };
+		F02380E6232A8D11009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 0280b8cb129a74a3834b11f27643b157.gif; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/0280b8cb129a74a3834b11f27643b157.gif"; sourceTree = "<group>"; };
+		F02380E8232A8DE0009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 0280b8cb129a74a3834b11f27643b157.gif; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/0280b8cb129a74a3834b11f27643b157.gif"; sourceTree = "<group>"; };
+		F025807B22DDCD4A0005DC1A /* Group 433.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 433.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 433.png"; sourceTree = "<group>"; };
+		F025807D22DDCD590005DC1A /* Group 403.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 403.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 403.png"; sourceTree = "<group>"; };
+		F025807F22DDCD780005DC1A /* Subtraction 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Subtraction 2.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Subtraction 2.png"; sourceTree = "<group>"; };
+		F025808122DDCD8A0005DC1A /* Group 434.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 434.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 434.png"; sourceTree = "<group>"; };
+		F025808322DDD1880005DC1A /* ذره بین.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ذره بین.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/ذره بین.png"; sourceTree = "<group>"; };
+		F029A615245F24DB0080FC9C /* %E2%80%94Pngtree%E2%80%94book%20glyph%20black%20icon_3754769.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "%E2%80%94Pngtree%E2%80%94book%20glyph%20black%20icon_3754769.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/%E2%80%94Pngtree%E2%80%94book%20glyph%20black%20icon_3754769.png"; sourceTree = "<group>"; };
+		F029D6F122D784FD0061F1A6 /* first page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "first page.jpg"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/first page.jpg"; sourceTree = "<group>"; };
+		F02E5487233266CD00960CDA /* proforma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proforma.swift; sourceTree = "<group>"; };
+		F02F164E22DF47B300C1C30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Base; path = Base.lproj/Assets.xcassets; sourceTree = "<group>"; };
+		F02F2D4B23240B2D00225665 /* pngfind.com-telefono-png-894748.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pngfind.com-telefono-png-894748.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/pngfind.com-telefono-png-894748.png"; sourceTree = "<group>"; };
+		F02F2D4D2325368E00225665 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/default.png"; sourceTree = "<group>"; };
+		F02F2D4F2328066400225665 /* serviceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceDetails.swift; sourceTree = "<group>"; };
+		F0348E5824102D990097BE1C /* com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = com.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/com.png"; sourceTree = "<group>"; };
+		F036D6BF2342641700015072 /* xiajiantou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xiajiantou.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/xiajiantou.png"; sourceTree = "<group>"; };
+		F04F2C4E2333CE5800972F96 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		F04F2C502336801E00972F96 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		F05A5E74226DF3FE002C3F84 /* IRANSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans.ttf; sourceTree = "<group>"; };
+		F05A5EC1226DFCE8002C3F84 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F05A5EC3226DFD04002C3F84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F05A5EC5226DFD20002C3F84 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F05A5EC7226DFE0C002C3F84 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F05A5EC9226DFE19002C3F84 /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		F05A5ECB226DFE26002C3F84 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		F05C012B2460444B00FDE7FE /* Intro6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro6.swift; sourceTree = "<group>"; };
+		F05C012D24606F4E00FDE7FE /* Intro1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro1.swift; sourceTree = "<group>"; };
+		F05C012F24606FB900FDE7FE /* Intro2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro2.swift; sourceTree = "<group>"; };
+		F05C01372460742000FDE7FE /* Intro3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro3.swift; sourceTree = "<group>"; };
+		F05CA726227208B100CB925B /* IRANSans_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Bold.ttf; sourceTree = "<group>"; };
+		F05CA727227208B100CB925B /* IRANSans_Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Medium.ttf; sourceTree = "<group>"; };
+		F05CA728227208B100CB925B /* IRANSans_UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_UltraLight.ttf; sourceTree = "<group>"; };
+		F05CA729227208B100CB925B /* IRANSans_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Light.ttf; sourceTree = "<group>"; };
+		F05CA72A227208B100CB925B /* IRANSans_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSans_Black.ttf; sourceTree = "<group>"; };
+		F05CA72E22720D5700CB925B /* cardun-animate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cardun-animate.gif"; sourceTree = "<group>"; };
+		F05CA72F22720D5700CB925B /* Group 442.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Group 442.png"; sourceTree = "<group>"; };
+		F05CA73222720D5800CB925B /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		F05CA73322720D5800CB925B /* cardun-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardun-1.png"; sourceTree = "<group>"; };
+		F05CA73622720D5800CB925B /* cardun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardun2.png; sourceTree = "<group>"; };
+		F073F2B4229C1E4600CCABC8 /* Path 878.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Path 878.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Path 878.png"; sourceTree = "<group>"; };
+		F073F2B6229C1EAB00CCABC8 /* Path 877.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Path 877.png"; path = "../../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Path 877.png"; sourceTree = "<group>"; };
+		F07C04E2245D94B400C6BDA6 /* Clipart-Email-11931500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clipart-Email-11931500.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Clipart-Email-11931500.png"; sourceTree = "<group>"; };
+		F07C04E4245D94DA00C6BDA6 /* Clipart-Email-11931500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clipart-Email-11931500.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Clipart-Email-11931500.png"; sourceTree = "<group>"; };
+		F07C04E6245D94F000C6BDA6 /* Clipart-Email-11931500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clipart-Email-11931500.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Clipart-Email-11931500.png"; sourceTree = "<group>"; };
+		F07C04E8245D970300C6BDA6 /* pngfind.com-right-arrow-png-877089.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pngfind.com-right-arrow-png-877089.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/pngfind.com-right-arrow-png-877089.png"; sourceTree = "<group>"; };
+		F07C04EA245DE48B00C6BDA6 /* 1 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1 (2).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/entroo/entroo/1 (2).png"; sourceTree = "<group>"; };
+		F07C04EC245DE4B600C6BDA6 /* 2 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2 (2).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/entroo/entroo/2 (2).png"; sourceTree = "<group>"; };
+		F07C04EE245DE4E000C6BDA6 /* 3 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3 (2).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/entroo/entroo/3 (2).png"; sourceTree = "<group>"; };
+		F07C04F0245DE4ED00C6BDA6 /* 4 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4 (2).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/entroo/entroo/4 (2).png"; sourceTree = "<group>"; };
+		F07C04F2245DE4F500C6BDA6 /* 5 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5 (2).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/entroo/entroo/5 (2).png"; sourceTree = "<group>"; };
+		F07C04F4245DE4FA00C6BDA6 /* 6 (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6 (2).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/entroo/entroo/6 (2).png"; sourceTree = "<group>"; };
+		F084BFC322688748005A47B3 /* Cardun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F084BFD72268874B005A47B3 /* CardunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F084BFDB2268874B005A47B3 /* CardunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardunTests.swift; sourceTree = "<group>"; };
+		F084BFDD2268874B005A47B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F084BFE22268874B005A47B3 /* CardunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F084BFE62268874B005A47B3 /* CardunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardunUITests.swift; sourceTree = "<group>"; };
+		F084BFE82268874B005A47B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F084BFF62268A8EB005A47B3 /* cardun-animate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "cardun-animate.gif"; path = "images/cardun-animate.gif"; sourceTree = SOURCE_ROOT; };
+		F0876C3C23E8602E005F37A8 /* hiclipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hiclipart.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/first page/Android/drawable-xxxhdpi/hiclipart.png"; sourceTree = "<group>"; };
+		F0876C3E23E862FE005F37A8 /* Android Mobile – 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Android Mobile – 1.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/ios/Android Mobile – 1.png"; sourceTree = "<group>"; };
+		F08CAD3A231EA471000224BF /* popUP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUP.swift; sourceTree = "<group>"; };
+		F08CAD3E23213E79000224BF /* anonymus.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = anonymus.jpeg; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/anonymus.jpeg"; sourceTree = "<group>"; };
+		F090698522CA1395002753E2 /* cardun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardun.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/cardun.png"; sourceTree = "<group>"; };
+		F090698722CA14FA002753E2 /* Subtraction 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Subtraction 1.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Subtraction 1.png"; sourceTree = "<group>"; };
+		F090698922CA1674002753E2 /* horizontal-line.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "horizontal-line.gif"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/horizontal-line.gif"; sourceTree = "<group>"; };
+		F090698B22CA16A0002753E2 /* horizontal-line.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "horizontal-line.gif"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/horizontal-line.gif"; sourceTree = "<group>"; };
+		F090698D22CA1826002753E2 /* images 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "images 2.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/images 2.png"; sourceTree = "<group>"; };
+		F0923AE72402A0C000B1231A /* kissclipart-white-transparent-background-share-icon-clipart-co-842eaf77ac3ac9ec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kissclipart-white-transparent-background-share-icon-clipart-co-842eaf77ac3ac9ec.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/kissclipart-white-transparent-background-share-icon-clipart-co-842eaf77ac3ac9ec.png"; sourceTree = "<group>"; };
+		F0923AE92402BAB500B1231A /* exit-clipart-png-transparent-310403-9461913.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "exit-clipart-png-transparent-310403-9461913.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/exit-clipart-png-transparent-310403-9461913.png"; sourceTree = "<group>"; };
+		F0923AEB2402BBA700B1231A /* PinClipart.com_headphone-clip-art_713569.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PinClipart.com_headphone-clip-art_713569.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/PinClipart.com_headphone-clip-art_713569.png"; sourceTree = "<group>"; };
+		F0923AED2402BC5A00B1231A /* free-web-icons-png-2-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "free-web-icons-png-2-transparent.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/free-web-icons-png-2-transparent.png"; sourceTree = "<group>"; };
+		F092C9B024617E1500B74A8C /* Intro4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro4.swift; sourceTree = "<group>"; };
+		F092C9B224617E8300B74A8C /* Intro5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro5.swift; sourceTree = "<group>"; };
+		F096FD2122F5D89D00C1CA83 /* Turnover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turnover.swift; sourceTree = "<group>"; };
+		F096FD2322F6FED100C1CA83 /* 588a64e7d06f6719692a2d11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 588a64e7d06f6719692a2d11.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/588a64e7d06f6719692a2d11.png"; sourceTree = "<group>"; };
+		F096FD2522F6FF8300C1CA83 /* clipart282138.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clipart282138.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/clipart282138.png"; sourceTree = "<group>"; };
+		F096FD2722F705BB00C1CA83 /* mobile_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mobile_menu.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/mobile_menu.png"; sourceTree = "<group>"; };
+		F096FD2922F7069E00C1CA83 /* Group 306.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 306.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 306.png"; sourceTree = "<group>"; };
+		F096FD2B22F706E800C1CA83 /* Group 305.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 305.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 305.png"; sourceTree = "<group>"; };
+		F096FD2D22F707CF00C1CA83 /* TableViewTurnover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTurnover.swift; sourceTree = "<group>"; };
+		F096FD2F22F82BA300C1CA83 /* receivedServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receivedServices.swift; sourceTree = "<group>"; };
+		F096FD3122F82C1700C1CA83 /* TableViewReceivedServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewReceivedServices.swift; sourceTree = "<group>"; };
+		F096FD3322F82EAB00C1CA83 /* 24-hour-service-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "24-hour-service-32.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/24-hour-service-32.png"; sourceTree = "<group>"; };
+		F096FD3522F832B400C1CA83 /* Implement-Monitor-Icon-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Implement-Monitor-Icon-300x300.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Implement-Monitor-Icon-300x300.png"; sourceTree = "<group>"; };
+		F096FD3722F8392700C1CA83 /* 24-hour-service-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "24-hour-service-32.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/24-hour-service-32.png"; sourceTree = "<group>"; };
+		F096FD3F22F84D6900C1CA83 /* approved-icon-white-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "approved-icon-white-300x300.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/approved-icon-white-300x300.png"; sourceTree = "<group>"; };
+		F0989FB322DC99E500844AA2 /* searchServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchServices.swift; sourceTree = "<group>"; };
+		F0A5BE8D23FAD45E00F740BC /* Container-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Container-1.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/main/Container-1.png"; sourceTree = "<group>"; };
+		F0A5BE8F23FAD47200F740BC /* Container-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Container-2.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/main/Container-2.png"; sourceTree = "<group>"; };
+		F0A5BE9123FAD4F100F740BC /* Container-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Container-6.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/main/Container-6.png"; sourceTree = "<group>"; };
+		F0A5BE9223FAD4F100F740BC /* Container-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Container-3.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/main/Container-3.png"; sourceTree = "<group>"; };
+		F0A5BE9323FAD4F200F740BC /* Container-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Container-4.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/main/Container-4.png"; sourceTree = "<group>"; };
+		F0A5BE9423FAD4F200F740BC /* Container-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Container-5.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/main/Container-5.png"; sourceTree = "<group>"; };
+		F0CB2F1F22DCBF5400EDB9AB /* Group 354.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 354.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 354.png"; sourceTree = "<group>"; };
+		F0CB2F2322DCC1E400EDB9AB /* TableViewSearchServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSearchServices.swift; sourceTree = "<group>"; };
+		F0CB81052406BE6600D5E360 /* netclipart.com-email-symbol-clipart-2038005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "netclipart.com-email-symbol-clipart-2038005.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/netclipart.com-email-symbol-clipart-2038005.png"; sourceTree = "<group>"; };
+		F0CD667423E73C9300A25941 /* Screenshot_20191226-193714_Gallery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screenshot_20191226-193714_Gallery.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/first page/Android/drawable-xxxhdpi/Screenshot_20191226-193714_Gallery.png"; sourceTree = "<group>"; };
+		F0CD667623E73DD300A25941 /* hiclipart.com (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hiclipart.com (2).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/first page/Android/drawable-xxxhdpi/hiclipart.com (2).png"; sourceTree = "<group>"; };
+		F0D8BF0A246F0D3C00DFAE9C /* undefined.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = undefined.svg; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/undefined.svg"; sourceTree = "<group>"; };
+		F0D8BF0C246F0D5400DFAE9C /* undefined.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = undefined.svg; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/undefined.svg"; sourceTree = "<group>"; };
+		F0D8BF0E246F0E2F00DFAE9C /* undefined.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = undefined.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/undefined.png"; sourceTree = "<group>"; };
+		F0D8BF10246F0F4900DFAE9C /* undefined (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "undefined (1).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/undefined (1).png"; sourceTree = "<group>"; };
+		F0D8BF12246F122F00DFAE9C /* undefined (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "undefined (1).png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/undefined (1).png"; sourceTree = "<group>"; };
+		F0DDF4BD22F1B5AF0006ABA5 /* UIHere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIHere.png; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/UIHere.png"; sourceTree = "<group>"; };
+		F0DDF4BF22F1B6920006ABA5 /* iPhone-front-white-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone-front-white-icon.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/iPhone-front-white-icon.png"; sourceTree = "<group>"; };
+		F0DDF4C122F1B6E40006ABA5 /* Group 431.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 431.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/Group 431.png"; sourceTree = "<group>"; };
+		F0DDF4C322F1B7AE0006ABA5 /* mobile-phone-8-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mobile-phone-8-32.png"; path = "../../../../../Volumes/VMware Shared Folders/OSX/ui-cardun/mobile-phone-8-32.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F084BFC022688748005A47B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01E995A23043DBF0045FBD1 /* libz.tbd in Frameworks */,
+				04A7B5BDDA7C238F952489BA /* Pods_Cardun.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F084BFD42268874B005A47B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7CA9913227320E18122D29 /* Pods_CardunTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F084BFDF2268874B005A47B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6240DE180F3B2E55A343E07F /* Pods_CardunUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AB45E0216A3D0BBBB680602 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F04F2C502336801E00972F96 /* EventKit.framework */,
+				F04F2C4E2333CE5800972F96 /* Podfile */,
+				F05A5ECB226DFE26002C3F84 /* libz.1.2.5.tbd */,
+				F05A5EC9226DFE19002C3F84 /* libz.1.2.8.tbd */,
+				F05A5EC7226DFE0C002C3F84 /* libz.tbd */,
+				F05A5EC5226DFD20002C3F84 /* MobileCoreServices.framework */,
+				F05A5EC3226DFD04002C3F84 /* SystemConfiguration.framework */,
+				F05A5EC1226DFCE8002C3F84 /* CFNetwork.framework */,
+				D5289BABF7715A9D632A7D5D /* Pods_Cardun.framework */,
+				E3E1C4C563D147FEBA02CAF2 /* Pods_CardunTests.framework */,
+				4FD2D01E43FF3BD439071550 /* Pods_CardunUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5633A632327A24A637CFA50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5ED90CD61B134D68C9B4B165 /* Pods-Cardun.debug.xcconfig */,
+				E0F7B2A8E1E6125F6598420F /* Pods-Cardun.release.xcconfig */,
+				A033AEF843EB1235E7C7028E /* Pods-CardunTests.debug.xcconfig */,
+				201421375D22DDA605363C1B /* Pods-CardunTests.release.xcconfig */,
+				0CFA7F282699636C7459C6E7 /* Pods-CardunUITests.debug.xcconfig */,
+				EFF8F14C9FECD2E3AD5F2DF6 /* Pods-CardunUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F05A5E73226DF3F0002C3F84 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F05A5E74226DF3FE002C3F84 /* IRANSans.ttf */,
+				F05CA72A227208B100CB925B /* IRANSans_Black.ttf */,
+				F05CA726227208B100CB925B /* IRANSans_Bold.ttf */,
+				F05CA729227208B100CB925B /* IRANSans_Light.ttf */,
+				F05CA727227208B100CB925B /* IRANSans_Medium.ttf */,
+				F05CA728227208B100CB925B /* IRANSans_UltraLight.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F084BFBA22688748005A47B3 = {
+			isa = PBXGroup;
+			children = (
+				F0ACA513226F473F001DCDAA /* images */,
+				F05A5E73226DF3F0002C3F84 /* fonts */,
+				F084BFC522688748005A47B3 /* Cardun */,
+				F084BFDA2268874B005A47B3 /* CardunTests */,
+				F084BFE52268874B005A47B3 /* CardunUITests */,
+				F084BFC422688748005A47B3 /* Products */,
+				A5633A632327A24A637CFA50 /* Pods */,
+				8AB45E0216A3D0BBBB680602 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F084BFC422688748005A47B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F084BFC322688748005A47B3 /* Cardun.app */,
+				F084BFD72268874B005A47B3 /* CardunTests.xctest */,
+				F084BFE22268874B005A47B3 /* CardunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F084BFC522688748005A47B3 /* Cardun */ = {
+			isa = PBXGroup;
+			children = (
+				F00298BC23FED07B00CEAE6F /* webServiceCalling.swift */,
+				F012FA5622B6863400F32D51 /* AppDelegate.swift */,
+				F012FA8322B6916D00F32D51 /* Base.lproj */,
+				F02F164D22DF47B300C1C30B /* Assets.xcassets */,
+				F012FA5D22B6870100F32D51 /* webServ.swift */,
+				F012FA6722B6870200F32D51 /* sideMenueVC.swift */,
+				F00E367E22EF27FA002DF32C /* Credit.swift */,
+				F00C22AD22F0577900D35553 /* user.swift */,
+				F096FD2122F5D89D00C1CA83 /* Turnover.swift */,
+				F096FD2F22F82BA300C1CA83 /* receivedServices.swift */,
+				F01BE60322E7565C00290719 /* SWRevealViewController.h */,
+				F01BE60222E7565C00290719 /* SWRevealViewController.m */,
+				F012FA6222B6870100F32D51 /* TableViewSubServices.swift */,
+				F0CB2F2322DCC1E400EDB9AB /* TableViewSearchServices.swift */,
+				F096FD2D22F707CF00C1CA83 /* TableViewTurnover.swift */,
+				F096FD3122F82C1700C1CA83 /* TableViewReceivedServices.swift */,
+				F012FA7E22B690D700F32D51 /* LaunchScreen.storyboard */,
+				F012FA7B22B6909500F32D51 /* Main.storyboard */,
+				F02F2D4F2328066400225665 /* serviceDetails.swift */,
+				F012FA7522B6874500F32D51 /* Info.plist */,
+				F02E5487233266CD00960CDA /* proforma.swift */,
+				F08CAD3A231EA471000224BF /* popUP.swift */,
+				F012FA6522B6870100F32D51 /* searchService.swift */,
+				F012FA7422B6874500F32D51 /* finalizeReq.swift */,
+				F012FA6322B6870100F32D51 /* serviceInfo.swift */,
+				F012FA6622B6870100F32D51 /* ViewController6.swift */,
+				F012FA6422B6870100F32D51 /* ViewController5.swift */,
+				F012FA6122B6870100F32D51 /* ViewController4.swift */,
+				F0989FB322DC99E500844AA2 /* searchServices.swift */,
+				F012FA6022B6870100F32D51 /* ViewController3.swift */,
+				F012FA5F22B6870100F32D51 /* ViewController2.swift */,
+				F05C012B2460444B00FDE7FE /* Intro6.swift */,
+				F092C9B224617E8300B74A8C /* Intro5.swift */,
+				F092C9B024617E1500B74A8C /* Intro4.swift */,
+				F05C01372460742000FDE7FE /* Intro3.swift */,
+				F05C012F24606FB900FDE7FE /* Intro2.swift */,
+				F05C012D24606F4E00FDE7FE /* Intro1.swift */,
+				F012FA5E22B6870100F32D51 /* ViewController.swift */,
+				F01BE60122E7565A00290719 /* Cardun-Bridging-Header.h */,
+			);
+			path = Cardun;
+			sourceTree = "<group>";
+		};
+		F084BFDA2268874B005A47B3 /* CardunTests */ = {
+			isa = PBXGroup;
+			children = (
+				F084BFDB2268874B005A47B3 /* CardunTests.swift */,
+				F084BFDD2268874B005A47B3 /* Info.plist */,
+			);
+			path = CardunTests;
+			sourceTree = "<group>";
+		};
+		F084BFE52268874B005A47B3 /* CardunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F084BFE62268874B005A47B3 /* CardunUITests.swift */,
+				F084BFE82268874B005A47B3 /* Info.plist */,
+			);
+			path = CardunUITests;
+			sourceTree = "<group>";
+		};
+		F0ACA513226F473F001DCDAA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F07C04E6245D94F000C6BDA6 /* Clipart-Email-11931500.png */,
+				F05CA73322720D5800CB925B /* cardun-1.png */,
+				F00B8815229822F600F255CE /* caca.png */,
+				F08CAD3E23213E79000224BF /* anonymus.jpeg */,
+				F00B882322982DCB00F255CE /* caca-2.png */,
+				F05CA72E22720D5700CB925B /* cardun-animate.gif */,
+				F00B881B22982C2A00F255CE /* Group 425.png */,
+				F02F2D4D2325368E00225665 /* default.png */,
+				F02F2D4B23240B2D00225665 /* pngfind.com-telefono-png-894748.png */,
+				F05CA73622720D5800CB925B /* cardun2.png */,
+				F073F2B6229C1EAB00CCABC8 /* Path 877.png */,
+				F00B8817229825C500F255CE /* Group 422.png */,
+				F07C04E4245D94DA00C6BDA6 /* Clipart-Email-11931500.png */,
+				F0348E5824102D990097BE1C /* com.png */,
+				F0CD667623E73DD300A25941 /* hiclipart.com (2).png */,
+				F029D6F122D784FD0061F1A6 /* first page.jpg */,
+				F029A615245F24DB0080FC9C /* %E2%80%94Pngtree%E2%80%94book%20glyph%20black%20icon_3754769.png */,
+				F0923AE72402A0C000B1231A /* kissclipart-white-transparent-background-share-icon-clipart-co-842eaf77ac3ac9ec.png */,
+				F090698522CA1395002753E2 /* cardun.png */,
+				F025807D22DDCD590005DC1A /* Group 403.png */,
+				F0CD667423E73C9300A25941 /* Screenshot_20191226-193714_Gallery.png */,
+				F025807F22DDCD780005DC1A /* Subtraction 2.png */,
+				F096FD2922F7069E00C1CA83 /* Group 306.png */,
+				F036D6BF2342641700015072 /* xiajiantou.png */,
+				F0876C3C23E8602E005F37A8 /* hiclipart.png */,
+				F025808122DDCD8A0005DC1A /* Group 434.png */,
+				F096FD2722F705BB00C1CA83 /* mobile_menu.png */,
+				F096FD2B22F706E800C1CA83 /* Group 305.png */,
+				F07C04EA245DE48B00C6BDA6 /* 1 (2).png */,
+				F025808322DDD1880005DC1A /* ذره بین.png */,
+				F00E368022EF2D16002DF32C /* Group 422.png */,
+				F00C22A522F0510F00D35553 /* users.png */,
+				F07C04EC245DE4B600C6BDA6 /* 2 (2).png */,
+				F096FD2322F6FED100C1CA83 /* 588a64e7d06f6719692a2d11.png */,
+				F0DDF4C122F1B6E40006ABA5 /* Group 431.png */,
+				F090698B22CA16A0002753E2 /* horizontal-line.gif */,
+				F073F2B4229C1E4600CCABC8 /* Path 878.png */,
+				F00B882B22983A6000F255CE /* More Icon.png */,
+				F07C04EE245DE4E000C6BDA6 /* 3 (2).png */,
+				F07C04F0245DE4ED00C6BDA6 /* 4 (2).png */,
+				F00B881F22982D2C00F255CE /* message-square.png */,
+				F00B881D22982C8000F255CE /* Group 426.png */,
+				F07C04F2245DE4F500C6BDA6 /* 5 (2).png */,
+				F05CA72F22720D5700CB925B /* Group 442.png */,
+				F012FA2622B67C8F00F32D51 /* divider.png */,
+				F00AC65B2275F596005B3FBA /* MoreIcon.png */,
+				F07C04F4245DE4FA00C6BDA6 /* 6 (2).png */,
+				F0A5BE8D23FAD45E00F740BC /* Container-1.png */,
+				F025807B22DDCD4A0005DC1A /* Group 433.png */,
+				F0A5BE9223FAD4F100F740BC /* Container-3.png */,
+				F0A5BE9323FAD4F200F740BC /* Container-4.png */,
+				F0A5BE9423FAD4F200F740BC /* Container-5.png */,
+				F0A5BE9123FAD4F100F740BC /* Container-6.png */,
+				F00B659922BA91600048A923 /* images.png */,
+				F0CB2F1F22DCBF5400EDB9AB /* Group 354.png */,
+				F0A5BE8F23FAD47200F740BC /* Container-2.png */,
+				F0107FE522C7B1F300CB7E86 /* background.jpg */,
+				F090698722CA14FA002753E2 /* Subtraction 1.png */,
+				F090698D22CA1826002753E2 /* images 2.png */,
+				F00C22B722F05F8900D35553 /* white-cell-phone-icon-png-20.jpg.png */,
+				F00C22A922F051DC00D35553 /* Group 415.png */,
+				F00B881922982A4600F255CE /* Group 417.png */,
+				F090698922CA1674002753E2 /* horizontal-line.gif */,
+				F00C22AF22F05C6500D35553 /* kisspng-iphone-telephone-android-white-iphone-5ab952044d8e01.8381596115220945963177.png */,
+				F01120B522E9AADE00901371 /* Untitled 2.gif */,
+				F0DDF4BD22F1B5AF0006ABA5 /* UIHere.png */,
+				F0DDF4C322F1B7AE0006ABA5 /* mobile-phone-8-32.png */,
+				F0D8BF0E246F0E2F00DFAE9C /* undefined.png */,
+				F0DDF4BF22F1B6920006ABA5 /* iPhone-front-white-icon.png */,
+				F0083E1A22E896B000667CA1 /* titre.jpg */,
+				F00C22A322F0508000D35553 /* user.png */,
+				F00C22AB22F0536700D35553 /* kissclipart-homepage-icon-clipart-computer-icons-symbol-bd0f8bebb816361b.png */,
+				F096FD2522F6FF8300C1CA83 /* clipart282138.png */,
+				F0D8BF0A246F0D3C00DFAE9C /* undefined.svg */,
+				F096FD3522F832B400C1CA83 /* Implement-Monitor-Icon-300x300.png */,
+				F0D8BF0C246F0D5400DFAE9C /* undefined.svg */,
+				F0D8BF10246F0F4900DFAE9C /* undefined (1).png */,
+				F02380E6232A8D11009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif */,
+				F00C22A722F0519E00D35553 /* Group 424.png */,
+				F02380E42328C827009F74DD /* Group 432.png */,
+				F096FD3F22F84D6900C1CA83 /* approved-icon-white-300x300.png */,
+				F02380E8232A8DE0009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif */,
+				F0876C3E23E862FE005F37A8 /* Android Mobile – 1.png */,
+				F0923AE92402BAB500B1231A /* exit-clipart-png-transparent-310403-9461913.png */,
+				F0923AEB2402BBA700B1231A /* PinClipart.com_headphone-clip-art_713569.png */,
+				F0D8BF12246F122F00DFAE9C /* undefined (1).png */,
+				F0CB81052406BE6600D5E360 /* netclipart.com-email-symbol-clipart-2038005.png */,
+				F0923AED2402BC5A00B1231A /* free-web-icons-png-2-transparent.png */,
+				F07C04E8245D970300C6BDA6 /* pngfind.com-right-arrow-png-877089.png */,
+				F096FD3322F82EAB00C1CA83 /* 24-hour-service-32.png */,
+				F096FD3722F8392700C1CA83 /* 24-hour-service-32.png */,
+				F07C04E2245D94B400C6BDA6 /* Clipart-Email-11931500.png */,
+				F05CA73222720D5800CB925B /* search.png */,
+				F084BFF62268A8EB005A47B3 /* cardun-animate.gif */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F084BFC222688748005A47B3 /* Cardun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F084BFEB2268874B005A47B3 /* Build configuration list for PBXNativeTarget "Cardun" */;
+			buildPhases = (
+				0D0B04424BC6A0D1141BE165 /* [CP] Check Pods Manifest.lock */,
+				F084BFBF22688748005A47B3 /* Sources */,
+				F084BFC022688748005A47B3 /* Frameworks */,
+				F084BFC122688748005A47B3 /* Resources */,
+				7FFF0384C6E8AE7AD9D0321C /* [CP] Copy Pods Resources */,
+				4EB0405923B8AEB6AFE88857 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardun;
+			productName = Cardun;
+			productReference = F084BFC322688748005A47B3 /* Cardun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F084BFD62268874B005A47B3 /* CardunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F084BFEE2268874B005A47B3 /* Build configuration list for PBXNativeTarget "CardunTests" */;
+			buildPhases = (
+				B4494946B3FEA4B10710EA18 /* [CP] Check Pods Manifest.lock */,
+				F084BFD32268874B005A47B3 /* Sources */,
+				F084BFD42268874B005A47B3 /* Frameworks */,
+				F084BFD52268874B005A47B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F084BFD92268874B005A47B3 /* PBXTargetDependency */,
+			);
+			name = CardunTests;
+			productName = CardunTests;
+			productReference = F084BFD72268874B005A47B3 /* CardunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F084BFE12268874B005A47B3 /* CardunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F084BFF12268874B005A47B3 /* Build configuration list for PBXNativeTarget "CardunUITests" */;
+			buildPhases = (
+				34794CF06CF9EDD35B0EB96D /* [CP] Check Pods Manifest.lock */,
+				F084BFDE2268874B005A47B3 /* Sources */,
+				F084BFDF2268874B005A47B3 /* Frameworks */,
+				F084BFE02268874B005A47B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F084BFE42268874B005A47B3 /* PBXTargetDependency */,
+			);
+			name = CardunUITests;
+			productName = CardunUITests;
+			productReference = F084BFE22268874B005A47B3 /* CardunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F084BFBB22688748005A47B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kom Dare Rayan Sarir";
+				TargetAttributes = {
+					F084BFC222688748005A47B3 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					F084BFD62268874B005A47B3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F084BFC222688748005A47B3;
+					};
+					F084BFE12268874B005A47B3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = F084BFC222688748005A47B3;
+					};
+				};
+			};
+			buildConfigurationList = F084BFBE22688748005A47B3 /* Build configuration list for PBXProject "Cardun" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F084BFBA22688748005A47B3;
+			productRefGroup = F084BFC422688748005A47B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F084BFC222688748005A47B3 /* Cardun */,
+				F084BFD62268874B005A47B3 /* CardunTests */,
+				F084BFE12268874B005A47B3 /* CardunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F084BFC122688748005A47B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05A5E7A226DF518002C3F84 /* IRANSans.ttf in Resources */,
+				F0CD667523E73C9300A25941 /* Screenshot_20191226-193714_Gallery.png in Resources */,
+				F07C04E7245D94F000C6BDA6 /* Clipart-Email-11931500.png in Resources */,
+				F0A5BE8E23FAD45E00F740BC /* Container-1.png in Resources */,
+				F00B882022982D2D00F255CE /* message-square.png in Resources */,
+				F01120B622E9AADE00901371 /* Untitled 2.gif in Resources */,
+				F029D6F222D784FD0061F1A6 /* first page.jpg in Resources */,
+				F07C04F1245DE4EE00C6BDA6 /* 4 (2).png in Resources */,
+				F0A5BE9023FAD47200F740BC /* Container-2.png in Resources */,
+				F07C04F5245DE4FB00C6BDA6 /* 6 (2).png in Resources */,
+				F096FD2422F6FED200C1CA83 /* 588a64e7d06f6719692a2d11.png in Resources */,
+				F0083E1B22E896B000667CA1 /* titre.jpg in Resources */,
+				F08CAD3F23213E7A000224BF /* anonymus.jpeg in Resources */,
+				F025807E22DDCD590005DC1A /* Group 403.png in Resources */,
+				F0348E5924102D9A0097BE1C /* com.png in Resources */,
+				F0923AE82402A0C000B1231A /* kissclipart-white-transparent-background-share-icon-clipart-co-842eaf77ac3ac9ec.png in Resources */,
+				F0CB81062406BE6700D5E360 /* netclipart.com-email-symbol-clipart-2038005.png in Resources */,
+				F0923AEE2402BC5A00B1231A /* free-web-icons-png-2-transparent.png in Resources */,
+				F07C04E9245D970300C6BDA6 /* pngfind.com-right-arrow-png-877089.png in Resources */,
+				F02F2D4E2325368E00225665 /* default.png in Resources */,
+				F02380E9232A8DE0009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif in Resources */,
+				F02F2D4C23240B2E00225665 /* pngfind.com-telefono-png-894748.png in Resources */,
+				F0D8BF0B246F0D3C00DFAE9C /* undefined.svg in Resources */,
+				F0D8BF0F246F0E3000DFAE9C /* undefined.png in Resources */,
+				F00C22A822F0519F00D35553 /* Group 424.png in Resources */,
+				F00B881A22982A4600F255CE /* Group 417.png in Resources */,
+				F07C04E5245D94DA00C6BDA6 /* Clipart-Email-11931500.png in Resources */,
+				F096FD3422F82EAB00C1CA83 /* 24-hour-service-32.png in Resources */,
+				F096FD2C22F706E900C1CA83 /* Group 305.png in Resources */,
+				F012FA8022B690D700F32D51 /* LaunchScreen.storyboard in Resources */,
+				F00C22AC22F0536800D35553 /* kissclipart-homepage-icon-clipart-computer-icons-symbol-bd0f8bebb816361b.png in Resources */,
+				F0DDF4C022F1B6920006ABA5 /* iPhone-front-white-icon.png in Resources */,
+				F012FA2722B67C8F00F32D51 /* divider.png in Resources */,
+				F0A5BE9723FAD4F200F740BC /* Container-4.png in Resources */,
+				F00B881E22982C8000F255CE /* Group 426.png in Resources */,
+				F05CA73A22720D5800CB925B /* cardun-animate.gif in Resources */,
+				F00AC65C2275F596005B3FBA /* MoreIcon.png in Resources */,
+				F05CA74222720D5800CB925B /* cardun2.png in Resources */,
+				F00B882C22983A6000F255CE /* More Icon.png in Resources */,
+				F00B881C22982C2A00F255CE /* Group 425.png in Resources */,
+				F090698622CA1395002753E2 /* cardun.png in Resources */,
+				F07C04ED245DE4B600C6BDA6 /* 2 (2).png in Resources */,
+				F090698C22CA16A1002753E2 /* horizontal-line.gif in Resources */,
+				F07C04F3245DE4F500C6BDA6 /* 5 (2).png in Resources */,
+				F00C22AA22F051DC00D35553 /* Group 415.png in Resources */,
+				F025808222DDCD8A0005DC1A /* Group 434.png in Resources */,
+				F07C04EB245DE48B00C6BDA6 /* 1 (2).png in Resources */,
+				F0876C3F23E862FF005F37A8 /* Android Mobile – 1.png in Resources */,
+				F0D8BF11246F0F4A00DFAE9C /* undefined (1).png in Resources */,
+				F096FD2822F705BB00C1CA83 /* mobile_menu.png in Resources */,
+				F00B882422982DCB00F255CE /* caca-2.png in Resources */,
+				F02380E52328C828009F74DD /* Group 432.png in Resources */,
+				F0923AEC2402BBA800B1231A /* PinClipart.com_headphone-clip-art_713569.png in Resources */,
+				F0923AEA2402BAB500B1231A /* exit-clipart-png-transparent-310403-9461913.png in Resources */,
+				F00C22B022F05C6600D35553 /* kisspng-iphone-telephone-android-white-iphone-5ab952044d8e01.8381596115220945963177.png in Resources */,
+				F073F2B7229C1EAC00CCABC8 /* Path 877.png in Resources */,
+				F090698E22CA1827002753E2 /* images 2.png in Resources */,
+				F012FA7722B6874500F32D51 /* Info.plist in Resources */,
+				F096FD3822F8392700C1CA83 /* 24-hour-service-32.png in Resources */,
+				F0D8BF0D246F0D5400DFAE9C /* undefined.svg in Resources */,
+				F00B8816229822F600F255CE /* caca.png in Resources */,
+				F05CA73F22720D5800CB925B /* cardun-1.png in Resources */,
+				F012FA8422B6916D00F32D51 /* Base.lproj in Resources */,
+				F096FD3622F832B400C1CA83 /* Implement-Monitor-Icon-300x300.png in Resources */,
+				F02380E7232A8D12009F74DD /* 0280b8cb129a74a3834b11f27643b157.gif in Resources */,
+				F025808022DDCD780005DC1A /* Subtraction 2.png in Resources */,
+				F096FD2A22F7069E00C1CA83 /* Group 306.png in Resources */,
+				F00C22A422F0508000D35553 /* user.png in Resources */,
+				F029A616245F24DB0080FC9C /* %E2%80%94Pngtree%E2%80%94book%20glyph%20black%20icon_3754769.png in Resources */,
+				F096FD4022F84D6A00C1CA83 /* approved-icon-white-300x300.png in Resources */,
+				F0A5BE9823FAD4F200F740BC /* Container-5.png in Resources */,
+				F0107FE622C7B1F300CB7E86 /* background.jpg in Resources */,
+				F00E368122EF2D17002DF32C /* Group 422.png in Resources */,
+				F0D8BF13246F122F00DFAE9C /* undefined (1).png in Resources */,
+				F05CA73E22720D5800CB925B /* search.png in Resources */,
+				F04F2C4F2333CE5800972F96 /* Podfile in Resources */,
+				F0876C3D23E8602F005F37A8 /* hiclipart.png in Resources */,
+				F0DDF4BE22F1B5B00006ABA5 /* UIHere.png in Resources */,
+				F025807C22DDCD4B0005DC1A /* Group 433.png in Resources */,
+				F012FA7D22B6909500F32D51 /* Main.storyboard in Resources */,
+				F036D6C02342641700015072 /* xiajiantou.png in Resources */,
+				F025808422DDD1880005DC1A /* ذره بین.png in Resources */,
+				F0A5BE9523FAD4F200F740BC /* Container-6.png in Resources */,
+				F00C22B822F05F8900D35553 /* white-cell-phone-icon-png-20.jpg.png in Resources */,
+				F02F164F22DF47B300C1C30B /* Assets.xcassets in Resources */,
+				F0CB2F2022DCBF5400EDB9AB /* Group 354.png in Resources */,
+				F073F2B5229C1E4700CCABC8 /* Path 878.png in Resources */,
+				F07C04EF245DE4E100C6BDA6 /* 3 (2).png in Resources */,
+				F00B8818229825C600F255CE /* Group 422.png in Resources */,
+				F0DDF4C422F1B7AE0006ABA5 /* mobile-phone-8-32.png in Resources */,
+				F00B659A22BA91600048A923 /* images.png in Resources */,
+				F0DDF4C222F1B6E50006ABA5 /* Group 431.png in Resources */,
+				F090698822CA14FB002753E2 /* Subtraction 1.png in Resources */,
+				F0CD667723E73DD300A25941 /* hiclipart.com (2).png in Resources */,
+				F084BFF72268A8EC005A47B3 /* cardun-animate.gif in Resources */,
+				F096FD2622F6FF8300C1CA83 /* clipart282138.png in Resources */,
+				F090698A22CA1674002753E2 /* horizontal-line.gif in Resources */,
+				F07C04E3245D94B500C6BDA6 /* Clipart-Email-11931500.png in Resources */,
+				F00C22A622F0510F00D35553 /* users.png in Resources */,
+				F0A5BE9623FAD4F200F740BC /* Container-3.png in Resources */,
+				F05CA73B22720D5800CB925B /* Group 442.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F084BFD52268874B005A47B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05A5E80226DF7B9002C3F84 /* IRANSans.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F084BFE02268874B005A47B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05A5E81226DF7BA002C3F84 /* IRANSans.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D0B04424BC6A0D1141BE165 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cardun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34794CF06CF9EDD35B0EB96D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardunUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB0405923B8AEB6AFE88857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cardun/Pods-Cardun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cardun/Pods-Cardun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cardun/Pods-Cardun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FFF0384C6E8AE7AD9D0321C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cardun/Pods-Cardun-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cardun/Pods-Cardun-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cardun/Pods-Cardun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4494946B3FEA4B10710EA18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardunTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F084BFBF22688748005A47B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F012FA6B22B6870200F32D51 /* ViewController2.swift in Sources */,
+				F012FA6D22B6870200F32D51 /* ViewController4.swift in Sources */,
+				F00E367F22EF27FA002DF32C /* Credit.swift in Sources */,
+				F012FA7622B6874500F32D51 /* finalizeReq.swift in Sources */,
+				F012FA6C22B6870200F32D51 /* ViewController3.swift in Sources */,
+				F0CB2F2422DCC1E400EDB9AB /* TableViewSearchServices.swift in Sources */,
+				F012FA7022B6870200F32D51 /* ViewController5.swift in Sources */,
+				F012FA5722B6863500F32D51 /* AppDelegate.swift in Sources */,
+				F092C9B324617E8300B74A8C /* Intro5.swift in Sources */,
+				F012FA6A22B6870200F32D51 /* ViewController.swift in Sources */,
+				F092C9B124617E1500B74A8C /* Intro4.swift in Sources */,
+				F012FA6E22B6870200F32D51 /* TableViewSubServices.swift in Sources */,
+				F012FA6F22B6870200F32D51 /* serviceInfo.swift in Sources */,
+				F012FA7322B6870200F32D51 /* sideMenueVC.swift in Sources */,
+				F01BE60422E7565C00290719 /* SWRevealViewController.m in Sources */,
+				F012FA7222B6870200F32D51 /* ViewController6.swift in Sources */,
+				F02F2D502328066400225665 /* serviceDetails.swift in Sources */,
+				F02E5488233266CD00960CDA /* proforma.swift in Sources */,
+				F05C012E24606F4E00FDE7FE /* Intro1.swift in Sources */,
+				F096FD3222F82C1700C1CA83 /* TableViewReceivedServices.swift in Sources */,
+				F00C22AE22F0577900D35553 /* user.swift in Sources */,
+				F012FA7122B6870200F32D51 /* searchService.swift in Sources */,
+				F096FD2222F5D89D00C1CA83 /* Turnover.swift in Sources */,
+				F05C012C2460444B00FDE7FE /* Intro6.swift in Sources */,
+				F012FA6922B6870200F32D51 /* webServ.swift in Sources */,
+				F05C013024606FB900FDE7FE /* Intro2.swift in Sources */,
+				F096FD2E22F707CF00C1CA83 /* TableViewTurnover.swift in Sources */,
+				F0989FB422DC99E500844AA2 /* searchServices.swift in Sources */,
+				F00298BD23FED07B00CEAE6F /* webServiceCalling.swift in Sources */,
+				F08CAD3B231EA471000224BF /* popUP.swift in Sources */,
+				F05C01382460742000FDE7FE /* Intro3.swift in Sources */,
+				F096FD3022F82BA300C1CA83 /* receivedServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F084BFD32268874B005A47B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F084BFDC2268874B005A47B3 /* CardunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F084BFDE2268874B005A47B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F084BFE72268874B005A47B3 /* CardunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F084BFD92268874B005A47B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F084BFC222688748005A47B3 /* Cardun */;
+			targetProxy = F084BFD82268874B005A47B3 /* PBXContainerItemProxy */;
+		};
+		F084BFE42268874B005A47B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F084BFC222688748005A47B3 /* Cardun */;
+			targetProxy = F084BFE32268874B005A47B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F012FA7B22B6909500F32D51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F012FA7C22B6909500F32D51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F012FA7E22B690D700F32D51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F012FA7F22B690D700F32D51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F02F164D22DF47B300C1C30B /* Assets.xcassets */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F02F164E22DF47B300C1C30B /* Base */,
+			);
+			name = Assets.xcassets;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F084BFE92268874B005A47B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F084BFEA2268874B005A47B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F084BFEC2268874B005A47B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED90CD61B134D68C9B4B165 /* Pods-Cardun.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF5TLS8J3Q;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = Cardun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Koders.Cardun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cardun/Cardun-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F084BFED2268874B005A47B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F7B2A8E1E6125F6598420F /* Pods-Cardun.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF5TLS8J3Q;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = Cardun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Koders.Cardun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cardun/Cardun-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F084BFEF2268874B005A47B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A033AEF843EB1235E7C7028E /* Pods-CardunTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF5TLS8J3Q;
+				INFOPLIST_FILE = CardunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Koders.CardunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardun.app/Cardun";
+			};
+			name = Debug;
+		};
+		F084BFF02268874B005A47B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 201421375D22DDA605363C1B /* Pods-CardunTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF5TLS8J3Q;
+				INFOPLIST_FILE = CardunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Koders.CardunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardun.app/Cardun";
+			};
+			name = Release;
+		};
+		F084BFF22268874B005A47B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFA7F282699636C7459C6E7 /* Pods-CardunUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF5TLS8J3Q;
+				INFOPLIST_FILE = CardunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Koders.CardunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardun;
+			};
+			name = Debug;
+		};
+		F084BFF32268874B005A47B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF8F14C9FECD2E3AD5F2DF6 /* Pods-CardunUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF5TLS8J3Q;
+				INFOPLIST_FILE = CardunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Koders.CardunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cardun;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F084BFBE22688748005A47B3 /* Build configuration list for PBXProject "Cardun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F084BFE92268874B005A47B3 /* Debug */,
+				F084BFEA2268874B005A47B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F084BFEB2268874B005A47B3 /* Build configuration list for PBXNativeTarget "Cardun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F084BFEC2268874B005A47B3 /* Debug */,
+				F084BFED2268874B005A47B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F084BFEE2268874B005A47B3 /* Build configuration list for PBXNativeTarget "CardunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F084BFEF2268874B005A47B3 /* Debug */,
+				F084BFF02268874B005A47B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F084BFF12268874B005A47B3 /* Build configuration list for PBXNativeTarget "CardunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F084BFF22268874B005A47B3 /* Debug */,
+				F084BFF32268874B005A47B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F084BFBB22688748005A47B3 /* Project object */;
+}
